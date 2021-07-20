@@ -2,11 +2,8 @@ import logo from "./logo.svg";
 
 function App() {
   const name = "dan";
-  return (
-    <div className="App">
-      Hello {name} {1 + 1}
-    </div>
-  );
+  const x = false;
+  return <div className="App">{x ? "yes" : "no"}</div>;
 }
 
 export default App;
