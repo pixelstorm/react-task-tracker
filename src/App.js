@@ -1,8 +1,8 @@
 import logo from "./logo.svg";
-import "./App.css";
 
 function App() {
-  return <div className="App">Hello</div>;
+  const name = "dan";
+  return <div className="App">Hello {name}</div>;
 }
 
 export default App;
