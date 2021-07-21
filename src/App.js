@@ -1,9 +1,11 @@
-import logo from "./logo.svg";
+import Header from "./components/Header";
 
 function App() {
-  const name = "dan";
-  const x = false;
-  return <div className="App">{x ? "yes" : "no"}</div>;
+  return (
+    <div className="container">
+      <Header />;
+    </div>
+  );
 }
 
 export default App;
