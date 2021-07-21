@@ -5,4 +5,7 @@ const Header = (props) => {
     </div>
   );
 };
+Header.defaultProps = {
+  title: "task tracker",
+};
 export default Header;
