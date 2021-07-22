@@ -5,4 +5,9 @@ export const Button = ({ color, text }) => {
     </button>
   );
 };
+
+Button.defaultProps = {
+  color: "steelblue",
+};
+
 export default Button;
